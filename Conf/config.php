@@ -38,11 +38,11 @@ return array(
 		'output'=>'trimwhitespace',				//过滤输出的html代码的空白
 		),
 		TMPL_PARSE_STRING  =>array(
-		'__PUBLIC__' =>  '/Tpl/Public',	//模板公共目录
-		'__IMAGE__' =>  '/Tpl/Public/Image',//模板图片目录
-		'__IMAGE4ADMIN__' =>  '/Tpl/Public/Image/Admin',//模板图片目录
-		'__CSS__' =>  '/Tpl/Public/Css',	//模板CSS目录
-		'__JS__' =>  '/Tpl/Public/Js',		//模板JS目录
+		'__PUBLIC__' =>  APP_DIR.'/Tpl/Public',	//模板公共目录
+		'__IMAGE__' =>  APP_DIR.'/Tpl/Public/Image',//模板图片目录
+		'__IMAGE4ADMIN__' =>  APP_DIR.'/Tpl/Public/Image/Admin',//模板图片目录
+		'__CSS__' => APP_DIR.'/Tpl/Public/Css',	//模板CSS目录
+		'__JS__' =>  APP_DIR.'/Tpl/Public/Js',		//模板JS目录
 		'__UPLOAD__' => 'http://oss.aliyuncs.com/tizhimei',//网站上传目录
 		),
 );

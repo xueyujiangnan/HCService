@@ -18,6 +18,11 @@ if(MEMORY_LIMIT_ON) $GLOBALS['_startUseMems'] = memory_get_usage();
 // 系统目录定义
 defined('THINK_PATH') 	or define('THINK_PATH', dirname(__FILE__).'/');
 defined('APP_PATH') 	or define('APP_PATH', dirname($_SERVER['SCRIPT_FILENAME']).'/');
+
+//由于项目没有放在根目录下引起的，最终设置为'';即可
+defined('APP_DIR') 	or define('APP_DIR', "/HCService".'/');
+
+
 defined('APP_DEBUG') 	or define('APP_DEBUG',false); // 是否调试模式
 if(defined('ENGINE_NAME')) {
     defined('ENGINE_PATH') or define('ENGINE_PATH',THINK_PATH.'Extend/Engine/');

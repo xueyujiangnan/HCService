@@ -1,4 +1,25 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<?php /* Smarty version Smarty-3.1.6, created on 2013-08-12 21:49:25
+         compiled from "./HCService/Tpl/Home\Index\index.html" */ ?>
+<?php /*%%SmartyHeaderCode:34935208e50587df40-29839168%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'c31ec52145d0a0f9d14efcdd7f59eff3ede8cc46' => 
+    array (
+      0 => './HCService/Tpl/Home\\Index\\index.html',
+      1 => 1376315363,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '34935208e50587df40-29839168',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.6',
+  'unifunc' => 'content_5208e505c55b5',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5208e505c55b5')) {function content_5208e505c55b5($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -570,4 +591,4 @@
 	</div>
 </div> -->
 </body>
-</html>
+</html><?php }} ?>
